@@ -1,0 +1,33 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    background-color: #000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 20px 2px;
+    cursor: pointer;
+    padding: 20px 48px;
+    letter-spacing: 1px;
+}
+
+.dev {
+    background-color: #ff9081;
+    color: black;
+}
